@@ -40,7 +40,7 @@ from tkinter import ttk, filedialog, messagebox
 import configparser
 
 # Versionsnummer: bei jeder Bearbeitung um 0.1 anheben (siehe AGENTS.md §8.2)
-APP_VERSION = "4.6"
+APP_VERSION = "4.7"
 
 
 # ----------------------------------------------------------------------

@@ -18,6 +18,10 @@
 |---|---|---|
 | <img src="docs/screenshots/screenshot_creamy.png" alt="Creamy" width="400"/> | <img src="docs/screenshots/screenshot_bluemoon.png" alt="BlueMoon" width="400"/> | |
 
+> **Hinweis zu den Screenshots:** Das Tool zeigt auch **Icons** an — die Toolbar-Buttons haben eigene Icons, und im Baum wird vor jedem Eintrag das in der Registry hinterlegte Icon angezeigt (z. B. das Icon der Anwendung hinter dem Kontextmenü-Eintrag). Auf den Aufnahmen oben sind die Eintrags-Icons nicht zu sehen, weil sie in einer Testumgebung unter Linux ohne Windows-Icon-Extraktion entstanden sind — unter Windows erscheinen die Icons wie beschrieben.
+>
+> **Note on the screenshots:** The tool also displays **icons** — the toolbar buttons have their own icons, and the tree shows the icon stored in the registry in front of each entry (e.g. the application icon behind the context-menu entry). The screenshots above were taken in a test environment under Linux without Windows icon extraction, so the entry icons are not visible there — on Windows the icons appear as described.
+
 ---
 
 # 🇩🇪 Deutsch
@@ -37,7 +41,7 @@
 - **Feste Windows-Einträge löschen** — mit Bestätigungsdialog und automatischem `.reg`-Backup im Dokumente-Ordner (Wiederherstellung durch Ausführen der Datei).
 - **Rückgängig-Funktion** — die letzten 10 Änderungen werden einzeln rückgängig gemacht (nur im Speicher, nach Neustart leer).
 - **Shutdown-Menü per Ein-Klick** — legt idempotent ein Menü *Shutdown Menü* mit *Neustart / Herunterfahren / Abmelden* an; vorhandene Befehle werden nie überschrieben.
-- **Icon-Vorschau** — der Baum zeigt die in der Registry hinterlegten Icons der Einträge.
+- **Icon-Vorschau** — der Baum zeigt die in der Registry hinterlegten Icons der Einträge (in den Screenshots oben nicht sichtbar, siehe Hinweis dort).
 - **Backup als `.reg`** — aktueller Bereich, beide separat oder kombiniert; Backup-Pfad frei wählbar und persistiert. Beim ersten Start gibt es einen Backup-Hinweis.
 - **Rechtsklick-Kontextmenü** — alle Toolbar-Funktionen an der Mausposition.
 - **Hilfe-Dialog** — erklärt alle Funktionen, in den Farben des gewählten Designs.
@@ -113,7 +117,7 @@ Dieses Projekt steht unter der **GNU General Public License v3.0** — siehe [LI
 - **Delete fixed Windows entries** — with a confirmation dialog and an automatic `.reg` backup in the Documents folder (restore by running the file).
 - **Undo** — the last 10 changes can be undone one by one (in memory only, cleared on restart).
 - **One-click shutdown menu** — idempotently creates a *Shutdown Menü* containing *Restart / Shut down / Log off*; existing commands are never overwritten.
-- **Icon preview** — the tree shows the icons stored in the registry for each entry.
+- **Icon preview** — the tree shows the icons stored in the registry for each entry (not visible in the screenshots above, see the note there).
 - **Backup as `.reg`** — current area, both areas separately, or combined; backup path is configurable and persisted. A backup hint is shown on first start.
 - **Right-click context menu** — all toolbar functions at the mouse position.
 - **Help dialog** — explains every feature, colored according to the active theme.
