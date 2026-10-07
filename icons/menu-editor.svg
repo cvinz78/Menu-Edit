@@ -1,0 +1,29 @@
+<svg width="180" height="220" viewBox="0 0 180 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Icon eines Menü-Editors">
+<!-- Hintergrund -->
+<rect width="180" height="220" rx="36" fill="#EEF3F8"/>
+
+<!-- Editor-Fenster -->
+<rect x="28" y="28" width="124" height="164" rx="16"
+fill="#FFFFFF" stroke="#193B56" stroke-width="6"/>
+
+<!-- Kopfzeile -->
+<rect x="28" y="28" width="124" height="36" rx="16"
+fill="#193B56"/>
+<rect x="28" y="46" width="124" height="18"
+fill="#193B56"/>
+
+<!-- Fensterpunkte -->
+<circle cx="47" cy="46" r="5" fill="#FF6B6B"/>
+<circle cx="62" cy="46" r="5" fill="#FFD166"/>
+<circle cx="77" cy="46" r="5" fill="#4CC9B0"/>
+
+<!-- Menüeinträge -->
+<rect x="48" y="86" width="82" height="10" rx="5"
+fill="#193B56"/>
+<rect x="48" y="113" width="66" height="10" rx="5"
+fill="#B2C2D0"/>
+<rect x="48" y="140" width="76" height="10" rx="5"
+fill="#B2C2D0"/>
+<rect x="48" y="167" width="52" height="10" rx="5"
+fill="#B2C2D0"/>
+</svg>
