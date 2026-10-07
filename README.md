@@ -22,6 +22,14 @@
 >
 > **Note on the screenshots:** The tool also displays **icons** — the toolbar buttons have their own icons, and the tree shows the icon stored in the registry in front of each entry (e.g. the application icon behind the context-menu entry). The screenshots above were taken in a test environment under Linux without Windows icon extraction, so the entry icons are not visible there — on Windows the icons appear as described.
 
+**So sieht das Ergebnis im echten Windows-Kontextmenü aus** (mit Eintrags-Icons und dem per Ein-Klick angelegten *Shutdown Menü*):
+
+<div align="center">
+<img src="docs/screenshots/beispiel_contextmenu.png" alt="Beispiel: Windows-Kontextmenü mit von Menu-Edit angelegten Einträgen" width="500"/>
+</div>
+
+**What the result looks like in the real Windows context menu** (with entry icons and the one-click *Shutdown Menü*): see the image above.
+
 ---
 
 # 🇩🇪 Deutsch
